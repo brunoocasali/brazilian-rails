@@ -22,7 +22,7 @@ BuscaEndereco.cep('22.640-100')
 ## O que acontece se o CEP informado tiver um formato inválido?
 
 ```ruby
-BuscaEndereco.cep('12345678')   ==> RuntimeError: CEP 12345678 não encontrado.
+BuscaEndereco.cep('12345678')   # => RuntimeError: CEP 12345678 não encontrado.
 ```
 
 P.S.: Nesse caso o endereço não foi encontrado porque não existe um endereço associado ao CEP 12345678. No entanto, pode haver situações em que CEPs que possuem endereços associados não tenham os seus endereços encontrados, no entanto, até o momento o web service utilizado cobrem todos os CEPs testados na prática.
