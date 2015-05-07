@@ -14,7 +14,9 @@ BuscaEndereco.cep('22640100')
 BuscaEndereco.cep('22640-100') 
 BuscaEndereco.cep('22.640-100') 
         
-        # => {:tipo_logradouro=>"Avenida", :logradouro=>"das Américas", :bairro=>"Barra da Tijuca", :cidade=>"Rio de Janeiro", :uf=>"RJ", :cep=>"22640100"} 
+# => {:tipo_logradouro=>"Avenida", :logradouro=>"das Américas",
+#     :bairro=>"Barra da Tijuca", :cidade=>"Rio de Janeiro",
+#     :uf=>"RJ", :cep=>"22640100"} 
 ```
 
 ## O que acontece se o CEP informado tiver um formato inválido?
